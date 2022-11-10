@@ -8,7 +8,6 @@
     color: inherit;
     font-family: 'Quicksand', sans-serif;
     text-decoration: none;
-    transition: 0.2s ease-in-out;
 }
 
 .app-container{
@@ -51,10 +50,13 @@
     width: 100%;
     border-radius: 5px;
     padding: 12px;
+    transition: 0.2s ease-in-out;
+
 }   
 
 .siderNav menu ul li a i{
     margin-right: 10px;
+    transition: 0.2s ease-in-out;
 }
 
 .siderNav menu ul li a span{
@@ -78,7 +80,7 @@
 .app-content{
     min-height:100vh ;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: rgb(248, 248, 248);
 }
 
 .app-content .top-nav{

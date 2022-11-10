@@ -9,6 +9,7 @@
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.14);
     height: 150px;
     border-radius: 8px;
+    padding: 20px;
 }
 
 .home-content .revenue-card{
@@ -26,4 +27,136 @@
 .home-content .order-list-card{
     grid-column: 1 / span 4;
     height: 350px;
+}
+
+.home-content .grid-card .statistics-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-content .grid-card .statistics-text .icon-container{
+    width: 40px;
+    height: 40px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+.home-content .grid-card .progress-bar-details{
+    width: 100%;
+}
+
+.home-content .grid-card .progress-bar-details .progress-bar-percentage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.home-content .grid-card .progress-bar-details .progress-bar{
+    width: 100%;
+    background-color: rgb(189, 189, 189);
+    height: 8px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.home-content .grid-card .progress-bar-details .progress-bar .progress{
+    width: 30%;
+    background-color: gray;
+    height: 100%;
+}
+
+.home-content .grid-card .top-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.home-content .total-menu-card{
+    background-color: black;
+    color:white;
+}
+
+.home-content .total-menu-card .icon-container{
+    background-color: rgba(255, 255, 255, 0.261) !important;
+}
+
+.grid-card .card-heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grid-card .card-heading h2{
+    font-size: 20px;
+}
+
+.grid-card .card-heading .time-option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    padding: 5px;
+    gap: 10px;
+
+}
+
+.grid-card .card-heading .time-option button{
+    background-color:transparent;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.grid-card .card-heading .time-option .active{
+    background-color:black;
+    color: white;
+}
+
+.order-list-card table{
+    width: 100%;
+    margin-top: 40px;
+    border-collapse: collapse;
+}
+
+.order-list-card table tr th{
+    font-size: 15px;
+    border-bottom: 1px solid gainsboro;
+    padding: 8px 0;
+    color: gray;
+}
+
+.order-list-card table tr th i{
+    padding-left: 5px;
+    transform: rotate(90deg) translateX(-3px);
+}
+
+
+.order-list-card table tr td{
+    border-bottom: 1px solid gainsboro;
+    text-align: center;
+    padding: 12px 0;
+    font-weight: 500;
+}
+
+
+.order-list-card table tr td span{
+    background-color: gainsboro;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.order-list-card table tr td .new{
+    background-color: rgb(236, 240, 251);
 }

@@ -1,54 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="stylesheets/global.css">
-    <link rel="stylesheet" href="stylesheets/home.css">
-</head>
-<body> 
-    
-
-
+    <link rel="stylesheet" href="stylesheets/global.css" />
+    <link rel="stylesheet" href="stylesheets/home.css" />
+  </head>
+  <body>
     <div class="app-container">
+      <div class="siderNav">
+        <menu>
+          <ul>
+            <li>
+              <a class="active" href="/"
+                ><i class="fa-solid fa-house"></i><span>Home</span></a
+              >
+            </li>
+            <li>
+              <a href="pages/product.html"
+                ><i class="fa-solid fa-vest"></i><span>Products</span></a
+              >
+            </li>
+            <li>
+              <a href="pages/users.html"
+                ><i class="fa-solid fa-people-group"></i><span>Users</span></a
+              >
+            </li>
+            <li>
+              <a href="pages/orders.html"
+                ><i class="fa-solid fa-bag-shopping"></i><span>Orders</span></a
+              >
+            </li>
+          </ul>
 
-        <div class="siderNav">
-            <menu>
-                <ul>
-                    <li><a class="active" href="/"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
-                    <li><a href="pages/product.html"><i class="fa-solid fa-vest"></i><span>Products</span></a></li>
-                    <li><a href="pages/users.html"><i class="fa-solid fa-people-group"></i><span>Users</span></a></li>
-                    <li><a href="pages/orders.html"><i class="fa-solid fa-bag-shopping"></i><span>Orders</span></a></li>
-                </ul>
+          <ul>
+            <li>
+              <a href="pages/admin.html"
+                ><i class="fa-solid fa-unlock-keyhole"></i><span>Admin</span></a
+              >
+            </li>
+            <li>
+              <a href="pages/account.html"
+                ><i class="fa-solid fa-user"></i><span>Account</span></a
+              >
+            </li>
+            <li>
+              <a href="pages/settings.html"
+                ><i class="fa-solid fa-gear"></i><span>Settings</span></a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><i class="fa-solid fa-power-off"></i><span>log out</span></a
+              >
+            </li>
+          </ul>
+        </menu>
+      </div>
 
-                <ul>
-                    <li><a href="pages/admin.html"><i class="fa-solid fa-unlock-keyhole"></i><span>Admin</span></a></li>
-                    <li><a href="pages/account.html"><i class="fa-solid fa-user"></i><span>Account</span></a></li>
-                    <li><a href="pages/settings.html"><i class="fa-solid fa-gear"></i><span>Settings</span></a></li>
-                    <li><a href=""><i class="fa-solid fa-power-off"></i><span>log out</span></a></li>
-                </ul>
-            </menu>
+      <div class="app-content">
+        <div class="top-nav">
+          <h3>Home</h3>
         </div>
 
-        <div class="app-content">
-            <div class="top-nav">
-                <h3>Home</h3>
+        <div class="app-content-container">
+          <div class="home-content">
+            <div class="grid-card total-menu-card">
+              <div class="top-card-content">
+                <div class="statistics-text">
+                  <div class="ammount">
+                    <h2>180</h2>
+                    <p>Total Menu</p>
+                  </div>
+
+                  <div class="icon-container">
+                    <i class="fa-solid fa-bars"></i>
+                  </div>
+                </div>
+
+                <div class="progress-bar-details">
+                  <div class="progress-bar-percentage">
+                    <p>0%</p>
+                    <p>62%</p>
+                  </div>
+
+                  <div class="progress-bar">
+                    <div class="progress"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-card">
+              <div class="top-card-content">
+                <div class="statistics-text">
+                  <div class="ammount">
+                    <h2>180</h2>
+                    <p>Total orders today</p>
+                  </div>
+
+                  <div class="icon-container">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                  </div>
+                </div>
+
+                <div class="progress-bar-details">
+                  <div class="progress-bar-percentage">
+                    <p>0%</p>
+                    <p>62%</p>
+                  </div>
+
+                  <div class="progress-bar">
+                    <div class="progress"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-card">
+              <div class="top-card-content">
+                <div class="statistics-text">
+                  <div class="ammount">
+                    <h2>180</h2>
+                    <p>Total Client today</p>
+                  </div>
+
+                  <div class="icon-container">
+                    <i class="fa-solid fa-people-line"></i>
+                  </div>
+                </div>
+
+                <div class="progress-bar-details">
+                  <div class="progress-bar-percentage">
+                    <p>0%</p>
+                    <p>62%</p>
+                  </div>
+
+                  <div class="progress-bar">
+                    <div class="progress"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-card">
+              <div class="top-card-content">
+                <div class="statistics-text">
+                  <div class="ammount">
+                    <h2>180</h2>
+                    <p>Total visitors today</p>
+                  </div>
+
+                  <div class="icon-container">
+                    <i class="fa-solid fa-eye"></i>
+                  </div>
+                </div>
+
+                <div class="progress-bar-details">
+                  <div class="progress-bar-percentage">
+                    <p>0%</p>
+                    <p>62%</p>
+                  </div>
+
+                  <div class="progress-bar">
+                    <div class="progress"></div>
+                  </div>
+                </div>
+              </div>
             </div>
 
-           <div class="app-content-container">
-            <div class="home-content">
-                <div class="grid-card"></div>
-                <div class="grid-card"></div>
-                <div class="grid-card"></div>
-                <div class="grid-card revenue-card"></div>
-                <div class="grid-card summary-card"></div>
-                <div class="grid-card"></div>
-                <div class="grid-card order-list-card"></div>
+            <div class="grid-card revenue-card">
+              <div class="card-heading">
+                <h2>Revenue</h2>
+
+                <div class="time-option">
+                  <button class="active">Today</button>
+                  <button>Weekly</button>
+                  <button>Monthly</button>
+                </div>
+              </div>
             </div>
-           </div>
+
+            <div class="grid-card summary-card">
+              <div class="card-heading">
+                <h2>Orders Summary</h2>
+
+                <div class="time-option">
+                  <button class="active">Today</button>
+                  <button>Weekly</button>
+                  <button>Monthly</button>
+                </div>
+              </div>
+            </div>
+            <div class="grid-card order-list-card">
+              <div class="card-heading">
+                <h2>Orders List</h2>
+
+                <div class="time-option">
+                  <button class="active">Today</button>
+                  <button>Weekly</button>
+                  <button>Monthly</button>
+                </div>
+              </div>
+
+              <table>
+                <tr>
+                  <th>No</th>
+                  <th>Id</th>
+                  <th>Date</th>
+                  <th>Customer name <i class="fa-solid fa-right-left"></i></th>
+                  <th>Location</th>
+                  <th>Amount<i class="fa-solid fa-right-left"></i></th>
+                  <th>Status order <i class="fa-solid fa-right-left"></i></th>
+                  <th>Action</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>E345s</td>
+                    <td>Feb 28, 2021</td>
+                    <td>Queenth Ngo</td>
+                    <td>England</td>
+                    <td>$300</td>
+                    <td><span class="pending">On order</span></td>
+                    <td><i class="fa-solid fa-ellipsis"></i></td>
+
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>S345s</td>
+                    <td>Mar 28, 2021</td>
+                    <td>Kings Wike</td>
+                    <td>Nigeria</td>
+                    <td>$360</td>
+                    <td><span class="new">New delivery</span></td>
+                    <td><i class="fa-solid fa-ellipsis"></i></td>
+
+                </tr>
+              </table>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
